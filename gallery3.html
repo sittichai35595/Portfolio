@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Sittichai Sopa</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="assets/img/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html">
+
+        
+        <h1>Portfolio</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="dropdown"><a href="#" class="active"><span>Performance</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="gallery.html">UX/UI Designs</a></li>
+              <li><a href="gallery2.html" >Graphics Designs</a></li>
+              <li><a href="gallery3.html" class="active">Coding</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://twitter.com/Tesika_Aef" class="twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.facebook.com/sittichai.sopa.7/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/aeff_faef/?hl=en" class="instagram"><i class="bi bi-instagram"></i></a>
+        
+      </div>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+
+
+  <main id="main" data-aos="fade" data-aos-delay="1500">
+
+    <!-- ======= End Page Header ======= -->
+    <div class="page-header d-flex align-items-center">
+      <div class="container position-relative">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2>Coding</h2>
+            <p>"This is a sample code that I have learned and practiced during work, and I have learned from various things to improve my coding skills in different formats."</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Page Header -->
+
+    <div class="dark bg-gray-950 rounded-md border border-token-border-medium container">
+      <div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md">
+        <span>JavaScript</span>
+        <span class data-state="closed">
+          <button class="copy-button" onclick="copyCode()">Copy code</button>
+        </span>
+      </div>
+      <div class="p-4 overflow-y-auto">
+        <code class="code">
+          let arr1 = ['Apple', 1, false]; <br>
+          let arr2 = ['Fries', 2, true]; <br>
+          let arr3 = ['Mars', 9, 'Apple']; <br>
+          <br>
+          let boo, boo1, boo2; <br>
+          let too, too1, too2; <br>
+          let yoo, yoo1, yoo2; <br>
+          <br>
+          console.log("Value First") <br>
+          <br>
+          if (typeof arr1[0] === "string" && typeof arr2[0] === "string") { <br>
+            boo = "True"; <br>
+          } else { <br>
+            boo = "false" <br>
+          } <br>
+          if (typeof arr1[1] === "number" && typeof arr2[1] === "number") { <br>
+            boo1 = "True"; <br>
+          } else { <br>
+            boo1 = "false" <br>
+          } <br>
+          if (typeof arr1[2] === "boolean" && typeof arr2[2] === "boolean") { <br>
+            boo2 = "True"; <br>
+          } else { <br>
+            boo2 = "false" <br>
+          } <br>
+          <br>
+          console.log(boo, boo1, boo2) <br>
+          console.log("") <br>
+          console.log("") <br>
+          console.log("Value second") <br>
+          <br>
+          console.log("") <br>
+          <br>
+          if (typeof arr2[0] === "string" && typeof arr3[0] === "string") { <br>
+            too = "True"; <br>
+          } else { <br>
+            too = "false" <br>
+          } <br>
+          if (typeof arr2[1] === "number" && typeof arr3[1] === "number") { <br>
+            too1 = "True"; <br>
+          } else { <br>
+            too1 = "false" <br>
+          } <br>
+          if (typeof arr2[2] === "boolean" && typeof arr3[2] === "boolean") { <br>
+            too2 = "True"; <br>
+          } else { <br>
+            too2 = "false" <br>
+          } <br>
+          <br>
+          console.log(too, too1, too2) <br>
+          console.log("") <br>
+          console.log("") <br>
+          console.log("Value third") <br>
+          <br>
+          console.log("") <br>
+          if (typeof arr1[0] === "string" && typeof arr3[0] === "string") { <br>
+            yoo = "True"; <br>
+          } else { <br>
+            yoo = "false" <br>
+          } <br>
+          if (typeof arr1[1] === "number" && typeof arr3[1] === "number") { <br>
+            yoo1 = "True"; <br>
+          } else { <br>
+            yoo1 = "false" <br>
+          } <br>
+          if (typeof arr1[2] === "boolean" && typeof arr3[2] === "boolean") { <br>
+            yoo2 = "True"; <br>
+          } else { <br>
+            yoo2 = "false" <br>
+          } <br>
+          <br>
+          console.log(yoo, yoo1, yoo2) <br>
+          console.log("") <br>
+        </code>
+      </div>
+    </div>
+    <script>
+      function copyCode() {
+        var codeText = document.querySelector(".code").innerText; 
+        navigator.clipboard.writeText(codeText).then(function() { 
+          alert("Code copied successfully!");
+        }, function() {
+          alert("Failed to copy code.");
+        });
+      }
+      </script>
+  </main><!-- End #main -->
+
+
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
